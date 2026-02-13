@@ -1,0 +1,62 @@
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+
+models/
+data/
+
+# Virtual Environment
+venv/
+.venv/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+*.log
+*.pid
+*.sqlite3
+instance/
+.credentials
+*.key
+*.pem
+*.crt
+
+# MQTT / Network
+*.pcap
+*.cap
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+__pycache__/
+*.pyc
+
+# Hardware specific
+esp8266/config.json
+esp8266/secrets.py
+pc_vision/config.json
+backend/.env
