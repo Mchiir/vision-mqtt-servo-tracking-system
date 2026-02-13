@@ -21,6 +21,7 @@ opencv-contrib-python==4.13.0.90
 opencv-python==4.13.0.90
 opt_einsum==3.4.0
 packaging==26.0
+paho-mqtt==2.1.0
 pillow==12.1.0
 protobuf==4.25.8
 pycparser==3.0

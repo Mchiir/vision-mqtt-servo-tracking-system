@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Vision Tracking Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Vision Servo Tracking</h1>
+
+      <div id="connectionStatus" class="connection disconnected">
+        DISCONNECTED
+      </div>
+
+      <div class="card">
+        <h2>Movement</h2>
+        <div id="movement" class="movement">--</div>
+      </div>
+
+      <div class="card">
+        <h2>Confidence</h2>
+        <div id="confidence">--</div>
+      </div>
+
+      <div class="card">
+        <h2>Timestamp</h2>
+        <div id="timestamp">--</div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

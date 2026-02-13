@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0f172a;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    width: 400px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.connection {
+    padding: 10px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    border-radius: 6px;
+}
+
+.connected {
+    background: #14532d;
+    color: #22c55e;
+}
+
+.disconnected {
+    background: #7f1d1d;
+    color: #ef4444;
+}
+
+.card {
+    background: #1e293b;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+}
+
+.movement {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.move-left {
+    color: #3b82f6;
+}
+
+.move-right {
+    color: #f97316;
+}
+
+.centered {
+    color: #22c55e;
+}
+
+.no-face {
+    color: #ef4444;
+}
