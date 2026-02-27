@@ -8,7 +8,7 @@ to all connected WebSocket clients.
 import json
 import threading
 import paho.mqtt.client as mqtt
-from . import config
+import config
 
 
 class MQTTBridge:
@@ -37,7 +37,20 @@ class MQTTBridge:
         """
         try:
             payload = msg.payload.decode()
-            json.loads(payload)  # Validate JSON format
+            data = json.loads(payload)  # Validate JSON format
+
+            # Extract fields
+            status = data.get("status")
+            confidence = data.get("confidence")
+            timestamp = data.get("timestamp")
+
+            # Log in terminal
+            print(
+                f"[MQTT RECEIVED] "
+                f"Status: {status} | "
+                f"Confidence: {confidence} | "
+                f"Timestamp: {timestamp}"
+            )
 
             # Broadcast asynchronously to WebSocket clients
             import asyncio

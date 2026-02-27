@@ -9,7 +9,7 @@ import os
 # MQTT Configuration
 # ==============================
 
-MQTT_BROKER = os.getenv("MQTT_BROKER", "localhost")
+MQTT_BROKER = os.getenv("MQTT_BROKER", "157.173.101.159")
 MQTT_PORT = int(os.getenv("MQTT_PORT", 1883))
 MQTT_TOPIC = os.getenv("MQTT_TOPIC", "vision/mchiir01/#")
 

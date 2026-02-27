@@ -10,9 +10,9 @@ Responsibilities:
 from fastapi import FastAPI, WebSocket, WebSocketDisconnect
 import uvicorn
 
-from .websocket_manager import WebSocketManager
-from .mqtt_bridge import MQTTBridge
-from . import config
+from websocket_manager import WebSocketManager
+from mqtt_bridge import MQTTBridge
+import config
 
 
 app = FastAPI()

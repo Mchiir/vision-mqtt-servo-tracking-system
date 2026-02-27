@@ -4,7 +4,7 @@
 
 // Example:
 // ws://157.173.101.159:8000/ws
-const WS_URL = "ws://157.173.101.159:8000/ws";
+const WS_URL = "ws://localhost:8000/ws";
 
 const socket = new WebSocket(WS_URL);
 
